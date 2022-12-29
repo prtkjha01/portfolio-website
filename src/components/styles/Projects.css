@@ -1,0 +1,7 @@
+a.disabled:hover {
+    cursor: not-allowed
+}
+
+.project-card:hover {
+    background-color: #59C1BD !important;
+}

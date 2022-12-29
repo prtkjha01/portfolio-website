@@ -1,0 +1,33 @@
+/******************************************************************** THIS FILE CONTAINS STYLES FOR RESPONSIVENESS************************************************************/
+
+.bannerImg {
+    height: 50vh;
+    margin-top: -15%;
+    border: 15px solid white;
+    border-radius: 100%;
+    display: inline-flex
+}
+
+.banner {
+    width: 100%;
+    height: 80vh;
+    object-fit: fill;
+}
+
+
+/*********************************************************************************MOBILE STYLES*******************************************************************************/
+
+@media only screen and (max-width: 500px) {
+    .bannerImg {
+        height: 25vh;
+        margin-top: -21%;
+        border: 10px solid white;
+        border-radius: 100%;
+        display: inline-flex
+    }
+    .banner {
+        height: auto;
+        width: auto;
+        max-width: 100vw;
+    }
+}

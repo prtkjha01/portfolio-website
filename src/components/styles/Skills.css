@@ -1,0 +1,7 @@
+.skillItem:hover {
+    background-color: #fff;
+}
+
+.skillItem-inner:hover {
+    background-color: #bbb !important;
+}

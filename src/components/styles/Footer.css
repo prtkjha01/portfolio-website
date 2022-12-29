@@ -1,0 +1,19 @@
+.icon-row {
+    padding: 0 20rem
+}
+
+.contactItem-text:hover {
+    background-color: cadetblue;
+}
+
+@media only screen and (min-width: 1200px) {
+    .icon-row {
+        padding: 0 30rem
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .icon-row {
+        padding: 0
+    }
+}
