@@ -70,6 +70,7 @@ const Skills = () => {
         I am a <span style={{ color: '#0000CD' }}>Pro</span>grammer, skilled in various cool technologies, including the one which
         i've used to build this website (reactjs).
       </p>
+
       <h6 >Some of my skills are :</h6>
       <div className="container">
         <div className="row">
