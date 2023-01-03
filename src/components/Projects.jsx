@@ -13,7 +13,7 @@ const projects = [
     projectIcon: newsFirstImg,
     projectDescription: '',
     projectGithubRepo: 'https://github.com/prtkjha01/newsapp',
-    projectUrl: '',
+    projectUrl: 'https://www.youtube.com/watch?v=VLtuqkbu1RU',
   },
   {
     id: 2,
@@ -28,8 +28,8 @@ const projects = [
     projectName: 'Movies App',
     projectIcon: fakeflixImg,
     projectDescription: '',
-    projectGithubRepo: 'https://github.com/prtkjha01/Gym-Website',
-    projectUrl: '',
+    projectGithubRepo: 'https://github.com/prtkjha01/movie-app',
+    projectUrl: 'https://statuesque-beignet-36dda8.netlify.app/',
   },
   {
     id: 4,

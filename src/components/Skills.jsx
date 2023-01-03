@@ -61,13 +61,13 @@ const Skills = () => {
       style={
         {
           padding: '50px',
-          color: '#FFF',
+          color: '#227C70',
           backgroundColor: '#A0E4CB',
         }
       }
     >
       <p>
-        I am a <span style={{ color: '#F7FF93' }}>Pro</span>grammer, skilled in various cool technologies, including the one which
+        I am a <span style={{ color: '#0000CD' }}>Pro</span>grammer, skilled in various cool technologies, including the one which
         i've used to build this website (reactjs).
       </p>
       <h6 >Some of my skills are :</h6>
@@ -86,7 +86,7 @@ const Skills = () => {
                     style={{ backgroundColor: '#227C70', borderRadius: '1rem' }}
                   >
                     <img src={skillItem.ImageUrl} height='50px' width='50px' alt="img here" />
-                    <p className='mb-0'>{skillItem.name}</p>
+                    <p className='mb-0' style={{ color: '#fff' }}>{skillItem.name}</p>
                   </div>
                 </div>
               )
