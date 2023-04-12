@@ -1,102 +1,124 @@
-import React from 'react'
+import React from "react";
 
 /***********ASSETS********************/
-import reactImg from '../assets/react.png'
-import nodeImg from '../assets/node.png'
-import vueImg from '../assets/vue.png'
-import flutterImg from '../assets/flutter.png'
-import mySqlImg from '../assets/mySql.png'
-import mongoDbImg from '../assets/mongoDb.png'
-import cppImg from '../assets/cpp.png'
-import jsImg from '../assets/js.png'
+import reactImg from "../assets/react.png";
+import nodeImg from "../assets/node.png";
+import vueImg from "../assets/vue.png";
+import flutterImg from "../assets/flutter.png";
+import mySqlImg from "../assets/mySql.png";
+import mongoDbImg from "../assets/mongoDb.png";
+import cppImg from "../assets/cpp.png";
+import jsImg from "../assets/js.png";
+import nextImg from "../assets/next.png";
+import expressImg from "../assets/express.png";
+import jwtImg from "../assets/jwt.png";
 
-import './styles/Skills.css'
+import "./styles/Skills.css";
 const skillItems = [
   {
     id: 1,
-    name: 'ReactJs',
-    ImageUrl: reactImg
+    name: "ReactJs",
+    ImageUrl: reactImg,
   },
   {
     id: 2,
-    name: 'NodeJs',
-    ImageUrl: nodeImg
+    name: "NodeJs",
+    ImageUrl: nodeImg,
   },
   {
     id: 3,
-    name: 'VueJs',
-    ImageUrl: vueImg
+    name: "VueJs",
+    ImageUrl: vueImg,
   },
   {
     id: 4,
-    name: 'Flutter',
-    ImageUrl: flutterImg
+    name: "Flutter",
+    ImageUrl: flutterImg,
   },
   {
     id: 5,
-    name: 'MySQL',
-    ImageUrl: mySqlImg
+    name: "MySQL",
+    ImageUrl: mySqlImg,
   },
   {
     id: 6,
-    name: 'Mongo DB',
-    ImageUrl: mongoDbImg
+    name: "Mongo DB",
+    ImageUrl: mongoDbImg,
   },
   {
     id: 7,
-    name: 'C++',
-    ImageUrl: cppImg
+    name: "C++",
+    ImageUrl: cppImg,
   },
   {
     id: 8,
-    name: 'Javascript',
-    ImageUrl: jsImg
-  }
-]
+    name: "Javascript",
+    ImageUrl: jsImg,
+  },
+  {
+    id: 9,
+    name: "NextJs",
+    ImageUrl: nextImg,
+  },
+  {
+    id: 10,
+    name: "ExpressJs",
+    ImageUrl: expressImg,
+  },
+  {
+    id: 11,
+    name: "JSON Web Token",
+    ImageUrl: jwtImg,
+  },
+];
 const Skills = () => {
   return (
     <div
-      id='skills'
-      className='skills-container my-5 px-5'
-      style={
-        {
-          padding: '50px',
-          color: '#227C70',
-          backgroundColor: '#A0E4CB',
-        }
-      }
+      id="skills"
+      className="skills-container my-5 px-5"
+      style={{
+        padding: "50px",
+        color: "#227C70",
+        backgroundColor: "#A0E4CB",
+      }}
     >
       <p>
-        I am a <span style={{ color: '#0000CD' }}>Pro</span>grammer, skilled in various cool technologies, including the one which
-        i've used to build this website (reactjs).
+        I am a <span style={{ color: "#0000CD" }}>Pro</span>grammer, skilled in
+        various cool technologies, including the one which i've used to build
+        this website (reactjs).
       </p>
 
-      <h6 >Some of my skills are :</h6>
+      <h6>Some of my skills are :</h6>
       <div className="container">
         <div className="row">
-          {
-            skillItems.map((skillItem) => {
-              return (
+          {skillItems.map((skillItem) => {
+            return (
+              <div
+                className="skillItem col-lg-3 col-4 p-1"
+                key={skillItem.id}
+                style={{ borderRadius: "1rem" }}
+              >
                 <div
-                  className="skillItem col-lg-3 col-4 p-1"
-                  key={skillItem.id}
-                  style={{ borderRadius: '1rem' }}
+                  className="skillItem-inner"
+                  style={{ backgroundColor: "#227C70", borderRadius: "1rem" }}
                 >
-                  <div
-                    className='skillItem-inner'
-                    style={{ backgroundColor: '#227C70', borderRadius: '1rem' }}
-                  >
-                    <img src={skillItem.ImageUrl} height='50px' width='50px' alt="img here" />
-                    <p className='mb-0' style={{ color: '#fff' }}>{skillItem.name}</p>
-                  </div>
+                  <img
+                    src={skillItem.ImageUrl}
+                    height="50px"
+                    width="50px"
+                    alt="img here"
+                  />
+                  <p className="mb-0" style={{ color: "#fff" }}>
+                    {skillItem.name}
+                  </p>
                 </div>
-              )
-            })
-          }
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Skills
+export default Skills;

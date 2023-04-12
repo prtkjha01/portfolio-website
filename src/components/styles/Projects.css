@@ -1,7 +1,11 @@
 a.disabled:hover {
-    cursor: not-allowed
+  cursor: not-allowed !important;
 }
 
 .project-card:hover {
-    background-color: #59C1BD !important;
+  color: #fff !important;
+  background-color: #3e8784 !important;
+}
+p.card-text {
+  color: #fff !important;
 }
