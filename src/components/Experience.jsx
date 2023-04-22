@@ -36,6 +36,16 @@ const companies = [
     Started: "March '23",
     Align: "left",
   },
+  {
+    id: 4,
+    companyName: "Prodo",
+    companyLogo: prodoImg,
+    location: "Gurugram, Haryana",
+    companyWebsiteUrl: "https://prodo.in/",
+    Role: "Fullstack Developer",
+    Started: "April '23",
+    Align: "right",
+  },
 ];
 const Experience = () => {
   return (
