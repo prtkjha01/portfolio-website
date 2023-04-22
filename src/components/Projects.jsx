@@ -32,7 +32,7 @@ const projects = [
     projectDescription:
       "A movie website that displays real time top trending movies",
     projectGithubRepo: "https://github.com/prtkjha01/movie-app",
-    projectUrl: "https://statuesque-beignet-36dda8.netlify.app/",
+    projectUrl: "https://fake-flix.netlify.app",
   },
   {
     id: 4,
