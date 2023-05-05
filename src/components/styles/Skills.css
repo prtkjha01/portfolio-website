@@ -1,3 +1,6 @@
+/* .skillItem {
+  padding: 1rem !important;
+} */
 .skillItem:hover {
   background-color: #fff;
 }

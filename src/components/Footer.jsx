@@ -48,7 +48,10 @@ const Footer = () => {
         <div className="row icon-row">
           {contacts.map((contact) => {
             return (
-              <div className="contact-items col-lg-3 col-md-3 col-3">
+              <div
+                key={contact.id}
+                className="contact-items col-lg-3 col-md-3 col-3"
+              >
                 <div>
                   {/* <FontAwesomeIcon icon={contact.icon} /> */}
                   {contact.icon}

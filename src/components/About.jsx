@@ -12,7 +12,7 @@ const About = () => {
     >
       <img
         className="bannerImg"
-        src="https://avatars.githubusercontent.com/u/68733176?s=400&u=b1fbf0848e25cab2f61abafddac588f88e67936a&v=4"
+        src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81pgMqBD83WYMDURFITwm1Y57Nkxs2lzHY6aMDyCly-nU2Ozn53Q54lbHWMMFDIKuyCtgJudTTLqSQhItLDaLHagcrvnQQ=s1600"
         alt="My pic should've been here lol !"
       />
       <h3>Hey There! , welcome to my website</h3>

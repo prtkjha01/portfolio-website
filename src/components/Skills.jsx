@@ -100,7 +100,11 @@ const Skills = () => {
               >
                 <div
                   className="skillItem-inner"
-                  style={{ backgroundColor: "#227C70", borderRadius: "1rem" }}
+                  style={{
+                    backgroundColor: "#227C70",
+                    borderRadius: "1rem",
+                    padding: "1rem",
+                  }}
                 >
                   <img
                     src={skillItem.ImageUrl}
