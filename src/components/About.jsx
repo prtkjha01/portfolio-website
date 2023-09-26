@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles/About.css";
-
+import profile from "../assets/profile.png";
 const About = () => {
   return (
     <div
@@ -12,7 +12,7 @@ const About = () => {
     >
       <img
         className="bannerImg"
-        src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81pgMqBD83WYMDURFITwm1Y57Nkxs2lzHY6aMDyCly-nU2Ozn53Q54lbHWMMFDIKuyCtgJudTTLqSQhItLDaLHagcrvnQQ=s1600"
+        src={profile}
         alt="My pic should've been here lol !"
       />
       <h3>Hey There! , welcome to my website</h3>
